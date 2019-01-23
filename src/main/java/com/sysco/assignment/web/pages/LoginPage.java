@@ -11,10 +11,11 @@ public class LoginPage {
     private By txtEmail = By.id("email");
     private By txtPassword = By.id("pass");
     private By btnLogin = By.id("send2");
+    private static By LblInCorrectSignIn = By.xpath("//div[@class='message-error error message']/div");
 
 
     public LoginPage(){
-
+        /*Constructor*/
     }
     public LoginPage(SyscoLabUI syscoLabUIOgm){
         this.syscoLabUIOgm = syscoLabUIOgm;
@@ -36,5 +37,10 @@ public class LoginPage {
     public MyAccountPage clickLoginButton() {
         syscoLabUIOgm.click(btnLogin);
         return new MyAccountPage(syscoLabUIOgm);
+    }
+
+    public static String verifyLoginFunctionError() {
+        //syscoLabUIOgm.waitTillElementDisappear(LblInCorrectSignIn);
+        return syscoLabUIOgm.getText(LblInCorrectSignIn);
     }
 }

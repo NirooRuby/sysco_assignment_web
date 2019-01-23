@@ -19,4 +19,12 @@ public class Login  {
     public static void clickLoginButton() {
         loginPage.clickLoginButton();
     }
+
+    public static boolean verifyEmailBoxErrorMessage() {
+        return false;
+    }
+
+    public static String verifyLoginFunctionError() {
+        return LoginPage.verifyLoginFunctionError();
+    }
 }
