@@ -9,16 +9,17 @@ import com.sysco.assignment.web.functions.Home;
 import com.sysco.assignment.web.functions.Login;
 import com.sysco.assignment.web.functions.MyAccount;
 import com.sysco.assignment.web.utils.ExcelUtil;
+import com.sysco.assignment.web.utils.TestBase;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class CheckoutTest {
+public class CheckoutTest extends TestBase {
     @BeforeClass
     public void init(ITestContext iTestContext) {
-        iTestContext.setAttribute("feature", "Checkout - ValidCheckout");
+        iTestContext.setAttribute("feature", "Online Shopping - Checkout");
     }
 
     @Test(description = "Test Login functionality", alwaysRun = true)
@@ -64,7 +65,7 @@ public class CheckoutTest {
         CheckoutData checkoutData = ExcelUtil.getCheckoutData("$data1");
         MyAccount.ClickProceedToCheckout();
         Assert.assertTrue(Checkout.verifyFirstNameAndLastName(loginData.userName));
-        softAssert.assertTrue(Checkout.verifyContinueWithoutMandatoryField(),  Attributes.CHECKOUT_ELEMENTS_MISSING_ERROR);
+        Assert.assertTrue(Checkout.verifyContinueWithoutMandatoryField(),  Attributes.CHECKOUT_ELEMENTS_MISSING_ERROR);
         Checkout.enterRequiredFieldsAndContinue(checkoutData.streetAddress, checkoutData.postCode, checkoutData.phoneNumber);
         Checkout.clickContinue();
         Checkout.selectPaymentType(checkoutData.paymentType);

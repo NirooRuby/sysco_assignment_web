@@ -19,7 +19,7 @@ public class LoginTest extends TestBase {
 
     @BeforeClass
     public void init(ITestContext iTestContext) {
-        iTestContext.setAttribute("feature", "Login - InvalidLogin");
+        iTestContext.setAttribute("feature", "Online Shopping - ValidAndInvalidLogin");
     }
 
     @Test(description = "Test Login functionality", alwaysRun = true)

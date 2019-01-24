@@ -16,7 +16,7 @@ public class CheckoutPage {
     private static By txtCountry = By.xpath("//li[@id='shipping']//input[@name='country_id']") ;
     private static By lblRequiredFieldError = By.xpath("//div[@class='field-error mage-error']") ;
     private static By drpPostCode = By.xpath("//ul[@id='ui-id-2']") ;
-    private static By drpPostCodeList = By.xpath("//ul[@id='ui-id-2']/li") ;
+    private static By drpPostCodeList = By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all']/li") ;
     private static By btnContinue = By.xpath("//button[@title='Continue']") ;
     private static By rdBtnCardPayment = By.xpath("//ul[@class='credit-card-types types-list']/parent::label/preceding-sibling::input") ;
     private static By rdBtnPaypalPayment = By.xpath("//button[@title='Continue']") ;
@@ -68,7 +68,7 @@ public class CheckoutPage {
     public static void enterPostalCode(String postCode){
         syscoLabUIOgm.sendKeys(txtPostalCode, postCode);
         syscoLabUIOgm.isDisplayed(drpPostCode);
-        syscoLabUIOgm.waitTillElementLoaded(drpPostCodeList);
+        syscoLabUIOgm.waitTillElementLoaded(drpPostCodeList, 25L);
         syscoLabUIOgm.click(syscoLabUIOgm.findElements(drpPostCodeList).get(0));
     }
     public static void enterPhoneNumber(String phoneNumber){
@@ -174,6 +174,11 @@ public class CheckoutPage {
         syscoLabUIOgm.waitTillElementLoaded(btnContinue, 20L);
         syscoLabUIOgm.isClickable(btnContinue);
         syscoLabUIOgm.click(btnContinue);
-        return syscoLabUIOgm.isDisplayed(lblcardValidationError);
+        if(!isContunueFunctionHighlightMandatoryFieldErrors()){
+            return syscoLabUIOgm.isDisplayed(lblcardValidationError);
+        } else {
+            return isContunueFunctionHighlightMandatoryFieldErrors();
+        }
+
     }
 }
