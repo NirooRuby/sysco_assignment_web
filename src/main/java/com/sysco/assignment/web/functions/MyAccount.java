@@ -16,6 +16,10 @@ public class MyAccount {
         myAccountPage.removeExistingCartItems();
     }
 
+    public static boolean verifyItemsRemoved() {
+        return myAccountPage.IsMiniCartItemsRemoved();
+    }
+
     public static void navigateToCategoryPage(String category) {
         myAccountPage.navigateToCategoryPage(category);
     }
@@ -64,7 +68,11 @@ public class MyAccount {
         return myAccountPage.isItemNameAndPriceExistInMiniCart(itemName, itemPrice);
     }
 
-    public static void clickCheckout() {
+    public static void clickAddToCartButton() {
         myAccountPage.clickAddToCartButton();
+    }
+
+    public static void closeMiniCart() {
+        myAccountPage.closeMiniCart();
     }
 }

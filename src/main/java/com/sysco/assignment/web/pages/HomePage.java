@@ -7,7 +7,7 @@ import org.openqa.selenium.Capabilities;
 
 public class HomePage {
     protected static SyscoLabUI syscoLabUIOgm;
-    private By lnkLogin = By.cssSelector("[class='authorization-link -notlogin']");
+    private By lnkLogin = By.xpath("//li[@class='authorization-link -notlogin']");
     public static void loadHomePage(Capabilities capabilities, String url) {
         syscoLabUIOgm = new SyscoLabWUI(capabilities);
         syscoLabUIOgm.driver.manage().window().maximize();

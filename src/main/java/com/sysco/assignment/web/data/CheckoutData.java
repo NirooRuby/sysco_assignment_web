@@ -7,4 +7,6 @@ public class CheckoutData {
     public static String streetAddress;
     public static String paymentType;
     public static String Cardnumber;
+    public static String month;
+    public static String year;
 }

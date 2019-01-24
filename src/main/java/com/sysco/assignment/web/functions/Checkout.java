@@ -31,7 +31,10 @@ public class Checkout {
         return checkoutPage.isCartPaymentFieldsAvailable();
     }
 
-    public static boolean verifyRequiredFieldValidation() {
-        return checkoutPage.isEmptyRequiredFieldHasErrorMessage();
+    public static boolean verifyCardPaymentRequiredFieldValidation(String creditCardNumber, String month, String year) {
+        return checkoutPage.isEmptyRequiredFieldHasErrorMessage(creditCardNumber,month,year);
+    }
+    public static void quiteDriver() {
+        CheckoutPage.quitDriver();
     }
 }

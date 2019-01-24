@@ -8,4 +8,7 @@ public class Attributes {
     public static final String SUb_MENU_WINDOW_ERROR = System.getProperty("Sub menu window is not appear");
     public static final String PRODUCT_TITLE_MISSING_ERROR = System.getProperty("Product name is not matching with page title");
     public static final String PRODUCT_SIZE_NOT_SELECTED = System.getProperty("Product size is not selected");
+    public static final String ITEM_NOT_REMOVED_FROM_MINICART = System.getProperty("Items are not removed from mini cart.");
+    public static final String CHECKOUT_ELEMENTS_MISSING_ERROR = System.getProperty("Failed to validate error message for each mandatory field");
+    public static final String NAME_OR_PRICE_NOT_MATCHING = System.getProperty("Item name or price is/are not matching");
 }

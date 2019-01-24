@@ -15,28 +15,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/MyAccountPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
+            <state relative-caret-position="82">
+              <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5357#5358#0" expanded="true" />
-                <element signature="e#5814#5815#0" expanded="true" />
-                <element signature="e#5924#5925#0" expanded="true" />
-                <element signature="e#6783#6784#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/sysco/qe/qe_core/0.0.2/qe_core-0.0.2.jar!/com/syscolab/qe/core/ui/SyscoLabUI.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="330" column="36" selection-start-line="330" selection-start-column="36" selection-end-line="330" selection-end-column="36" />
-              <folding>
-                <element signature="e#11899#11900#0" expanded="true" />
-                <element signature="e#11957#11958#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -44,42 +36,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/MyAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="109">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
               <folding>
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#300#301#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1271#1272#0" expanded="true" />
-                <element signature="e#1375#1376#0" expanded="true" />
-                <element signature="e#1433#1434#0" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-                <element signature="e#1542#1543#0" expanded="true" />
-                <element signature="e#1585#1586#0" expanded="true" />
-                <element signature="e#1636#1637#0" expanded="true" />
-                <element signature="e#1807#1808#0" expanded="true" />
-                <element signature="e#1865#1866#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
-                <element signature="e#2016#2017#0" expanded="true" />
-                <element signature="e#2044#2045#0" expanded="true" />
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#1852#1853#0" expanded="true" />
+                <element signature="e#1896#1897#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/data/CartData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="37" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -87,41 +55,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="111">
+              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
               <folding>
                 <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
-                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/CheckoutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="87" column="51" lean-forward="true" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+            <state relative-caret-position="194">
+              <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#2998#2999#0" expanded="true" />
-                <element signature="e#3061#3062#0" expanded="true" />
-                <element signature="e#3263#3264#0" expanded="true" />
-                <element signature="e#3291#3292#0" expanded="true" />
-                <element signature="e#3370#3371#0" expanded="true" />
-                <element signature="e#3398#3399#0" expanded="true" />
-                <element signature="e#3775#3776#0" expanded="true" />
-                <element signature="e#3842#3843#0" expanded="true" />
-                <element signature="e#4130#4131#0" expanded="true" />
-                <element signature="e#4158#4159#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,20 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/CheckoutTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="125">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,10 +94,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/utils/TestBase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/CheckoutTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            <state relative-caret-position="128">
+              <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/common/Attributes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="118" selection-start-line="12" selection-start-column="118" selection-end-line="12" selection-end-column="118" />
             </state>
           </provider>
         </entry>
@@ -163,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/data/CheckoutData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -193,6 +147,9 @@
       <find>waittill</find>
       <find>clickCheckout</find>
       <find>chec</find>
+      <find>return f</find>
+      <find>id=&quot;braintree_cc_number&quot;</find>
+      <find>lblNoItemInMiniCart</find>
     </findStrings>
     <dirStrings>
       <dir>D:\sysco_assignment_web\src\test</dir>
@@ -211,17 +168,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Dashboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/common/Attributes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/data/CartData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/MyAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/utils/ExcelUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Checkout.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/CheckoutTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/MyAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/data/CheckoutData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/CheckoutPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/common/Attributes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/MyAccountPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Checkout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/CheckoutPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/CheckoutTest.java" />
       </list>
     </option>
   </component>
@@ -253,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -381,11 +339,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548247125643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548320060618" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -512,34 +469,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckoutTest - 2019.01.23 at 17h 19m 15s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 12h 30m 41s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 17h 24m 08s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 13h 09m 51s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 17h 33m 13s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 13h 13m 49s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 17h 36m 39s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 13h 26m 51s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 17h 45m 57s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 13h 31m 01s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 17h 53m 56s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 13h 52m 29s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 17h 55m 38s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 13h 55m 26s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 17h 57m 38s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 13h 57m 08s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 18h 03m 42s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 14h 13m 40s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CheckoutTest - 2019.01.23 at 18h 08m 01s.xml">
+    <history-entry file="CheckoutTest - 2019.01.24 at 14h 18m 50s.xml">
       <configuration name="CheckoutTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -547,7 +504,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2834008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2931174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -557,7 +514,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962963" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46666667" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.47962964" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3462963" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -603,24 +560,6 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24939272" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/CheckoutPage.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/CheckoutTest.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -628,49 +567,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>syscoLabUIOgm.clickWithJavascript(By.xpath(&quot;//ul[@class='credit-card-types types-list']/parent::label/preceding-sibling::input&quot;));</expression-string>
+        <expression-string>syscoLabUIOgm.isDisplayed(lblPaymentCannotDoError)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>syscoLabUIOgm.click(By.xpath(&quot;//ul[@class='credit-card-types types-list']/parent::label/preceding-sibling::input&quot;))</expression-string>
+        <expression-string>syscoLabUIOgm.findElement(By.xpath(&quot;//div[@id=\&quot;checkout\&quot;]&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>syscoLabUIOgm.click(rdBtnCardPayment)</expression-string>
+        <expression-string>syscoLabUIOgm.findElement(By.xpath(&quot;//div[@id=\&quot;checkout\&quot;]//div[@data-role='checkout-messages']&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>&quot;card&quot;.equals(&quot;card&quot;)</expression-string>
+        <expression-string>syscoLabUIOgm.findElement(By.xpath(&quot;//div[@data-role='checkout-messages']&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>isRequiredFieldHasValidationError(txtPostalCode) &amp;&amp;
-                isRequiredFieldHasValidationError(drpStates) &amp;&amp;
-                isRequiredFieldHasValidationError(txtCity)</expression-string>
+        <expression-string>syscoLabUIOgm.findElement(By.xpath(&quot;//div[@data-role=\&quot;checkout-messages\&quot;]&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>isRequiredFieldHasValidationError(txtPostalCode)</expression-string>
+        <expression-string>syscoLabUIOgm.findElement(By.xpath(&quot;//div[@role=\&quot;alert\&quot;]&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>checkoutData</expression-string>
+        <expression-string>syscoLabUIOgm.findElement(By.xpath(&quot;//div[@data-ui-id='checkout-cart-validationmessages-message-error']&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>streetAdress1</expression-string>
+        <expression-string>syscoLabUIOgm.findElement(By.xpath(&quot;//div[@data-ui-id=\&quot;checkout-cart-validationmessages-message-error\&quot;]&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>syscoLabUIOgm.sendKeys(txtStreetAddress1, streetAdress1)</expression-string>
+        <expression-string>syscoLabUIOgm.isDisplayed(By.xpath(&quot;//div[@data-ui-id=\&quot;checkout-cart-validationmessages-message-error\&quot;]&quot;))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -721,18 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Home.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -750,13 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="748" column="25" selection-start-line="748" selection-start-column="25" selection-end-line="748" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -799,23 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/common/Attributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="109" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/internal/TestResult.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -833,49 +734,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sysco/qe/qe_core/0.0.2/qe_core-0.0.2.jar!/com/syscolab/qe/core/ui/SyscoLabUI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4386">
+          <caret line="330" column="36" selection-start-line="330" selection-start-column="36" selection-end-line="330" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/data/CartData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="37" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="37" />
+          <caret line="5" column="37" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/MyAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/utils/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1585#1586#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1807#1808#0" expanded="true" />
-            <element signature="e#1865#1866#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="561">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/HomePage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="85">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/asserts/Assertion.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -884,93 +781,112 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/data/CheckoutData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/utils/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.9.10/testng-6.9.10.jar!/org/testng/internal/Invoker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="438" selection-start-line="438" selection-end-line="438" />
+        <state relative-caret-position="136">
+          <caret line="487" column="69" lean-forward="true" selection-start-line="487" selection-start-column="69" selection-end-line="487" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sysco/qe/qe_core/0.0.2/qe_core-0.0.2.jar!/com/syscolab/qe/core/ui/SyscoLabUI.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="330" column="36" selection-start-line="330" selection-start-column="36" selection-end-line="330" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/common/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="118" selection-start-line="12" selection-start-column="118" selection-end-line="12" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/MyAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <element signature="e#11899#11900#0" expanded="true" />
-            <element signature="e#11957#11958#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1896#1897#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/MyAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="65" column="73" selection-start-line="65" selection-start-column="73" selection-end-line="65" selection-end-column="73" />
+        <state relative-caret-position="82">
+          <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5357#5358#0" expanded="true" />
-            <element signature="e#5814#5815#0" expanded="true" />
-            <element signature="e#5924#5925#0" expanded="true" />
-            <element signature="e#6783#6784#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Checkout.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Home.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+        <state relative-caret-position="192">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/CheckoutPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="87" column="51" lean-forward="true" selection-start-line="87" selection-start-column="51" selection-end-line="87" selection-end-column="51" />
+        <state relative-caret-position="125">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#2998#2999#0" expanded="true" />
-            <element signature="e#3061#3062#0" expanded="true" />
-            <element signature="e#3263#3264#0" expanded="true" />
-            <element signature="e#3291#3292#0" expanded="true" />
-            <element signature="e#3370#3371#0" expanded="true" />
-            <element signature="e#3398#3399#0" expanded="true" />
-            <element signature="e#3775#3776#0" expanded="true" />
-            <element signature="e#3842#3843#0" expanded="true" />
-            <element signature="e#4130#4131#0" expanded="true" />
-            <element signature="e#4158#4159#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/assignment/web/tests/CheckoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="128">
+          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/functions/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/assignment/web/pages/CheckoutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

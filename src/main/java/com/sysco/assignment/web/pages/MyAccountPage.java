@@ -8,13 +8,13 @@ import java.util.List;
 
 public class MyAccountPage {
     protected static SyscoLabUI syscoLabUIOgm;
-    private static By lnkMyAccount = By.cssSelector("[class='authorization-link -login']");
-    private static By lblUserName = By.cssSelector("[class='greet welcome'] span");
-    private static By lblCartCount = By.cssSelector("[class='counter qty']");
+    private static By lnkMyAccount = By.xpath("//li[@class='authorization-link -login']");
+    private static By lblUserName = By.xpath("//li[@class='greet welcome']//span");
+    private static By lblCartCount = By.xpath("//span[@class='counter qty']");
     private static By miniCartWindow = By.xpath("//div[@class='block block-minicart']");
     private static By miniCartWindowClose = By.xpath("//div[@class='close']");
     private static By miniCartDelete = By.xpath("//a[@class='action delete']");
-    private static By cartIcon = By.cssSelector("[class='showcart-trigger header-sidebar-link -cart']");
+    private static By cartIcon = By.xpath("//span[@class='showcart-trigger header-sidebar-link -cart']");
     private static By minicartActive = By.xpath("//span[@class='showcart-trigger header-sidebar-link -cart -active']");
     private static By btnPopUpWindow = By.xpath("//div[@class='modal-content'  and contains(., \"Are you sure\")]");
     private static By btnPopUpWindow_Ok = By.xpath("//footer[@class='modal-footer']/button/span[contains(.,'OK')]/parent::button");
@@ -26,6 +26,7 @@ public class MyAccountPage {
     private static By lblItemNameInMiniCart = By.xpath("//a[@class='alink -plain']");
     private static By lblItemPriceInMiniCart = By.xpath("//span[@class='minicart-price']");
     private static By BtnAddToCart = By.xpath("//button[@title='Add to Cart']");
+    private static By lblNoItemInMiniCart = By.xpath("//div[@class='block block-minicart']//span[contains(., 'You have no items')]");
 
     public MyAccountPage(){
         /*Constructor*/
@@ -50,7 +51,6 @@ public class MyAccountPage {
 
     public static void removeExistingCartItems(){
         if(syscoLabUIOgm.findElements(lblCartCount).size()>0) {
-            openMiniCart();
             if(syscoLabUIOgm.isDisplayed(miniCartWindow)) {
                 List<WebElement> miniCartItems = syscoLabUIOgm.findElements(miniCartDelete);
                 if (miniCartItems.size() > 0) {
@@ -62,11 +62,12 @@ public class MyAccountPage {
                     }
                 }
             }
-            if(syscoLabUIOgm.isDisplayed(minicartActive)){
-                syscoLabUIOgm.waitTillElementLoaded(miniCartWindowClose);
-                syscoLabUIOgm.click(miniCartWindowClose);
-            }
         }
+    }
+
+    public static boolean IsMiniCartItemsRemoved(){
+        syscoLabUIOgm.waitTillElementLoaded(lblNoItemInMiniCart);
+        return syscoLabUIOgm.isDisplayed(lblNoItemInMiniCart);
     }
 
     public By getLnkCategoryElement(String category){return By.xpath("//a[@title='" + category + "']");}
@@ -144,5 +145,12 @@ public class MyAccountPage {
 
     public void clickAddToCartButton() {
         syscoLabUIOgm.click(BtnAddToCart);
+    }
+
+    public void closeMiniCart() {
+        if(syscoLabUIOgm.isDisplayed(minicartActive)){
+            syscoLabUIOgm.waitTillElementLoaded(miniCartWindowClose);
+            syscoLabUIOgm.click(miniCartWindowClose);
+        }
     }
 }
