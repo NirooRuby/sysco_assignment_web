@@ -34,6 +34,8 @@ public class CheckoutPage {
     private static By lblExpMonthError = By.xpath("//div[@id='braintree_expirationMonth']/following-sibling::div/span") ;
     private static By lblExpYearError = By.xpath("//div[@id='braintree_expirationYear']/following-sibling::div/span") ;
     private static By lblPaymentCannotDoError = By.xpath("//div[@data-ui-id='checkout-cart-validationmessages-message-error']") ;
+    private static By formCardPaymentActive = By.xpath("//div[@class='payment-method payment-method-braintree _active']") ;
+    private static By lblcardValidationError = By.xpath("//div[@data-ui-id='checkout-cart-validationmessages-message-error']") ;
 
     public CheckoutPage(){
         /*
@@ -55,7 +57,8 @@ public class CheckoutPage {
     }
 
     public static boolean isContunueFunctionHighlightMandatoryFieldErrors() {
-        syscoLabUIOgm.waitTillElementLoaded(btnContinue);
+        syscoLabUIOgm.waitTillElementLoaded(btnContinue, 20L);
+        syscoLabUIOgm.isClickable(btnContinue);
         syscoLabUIOgm.click(btnContinue);
         return isRequiredFieldHasValidationError(txtPostalCode) &&
                 isRequiredFieldHasValidationError(drpStates) &&
@@ -64,7 +67,8 @@ public class CheckoutPage {
 
     public static void enterPostalCode(String postCode){
         syscoLabUIOgm.sendKeys(txtPostalCode, postCode);
-        syscoLabUIOgm.waitTillElementLoaded(drpPostCode);
+        syscoLabUIOgm.isDisplayed(drpPostCode);
+        syscoLabUIOgm.waitTillElementLoaded(drpPostCodeList);
         syscoLabUIOgm.click(syscoLabUIOgm.findElements(drpPostCodeList).get(0));
     }
     public static void enterPhoneNumber(String phoneNumber){
@@ -88,18 +92,23 @@ public class CheckoutPage {
     public void clickOnCardType(By locator) {
         syscoLabUIOgm.clickWithJavascript(locator);
     }
+
     public void selectCardPayment(String paymentType) {
         if ("card".equals(paymentType)) {
+            syscoLabUIOgm.waitTillElementLoaded(rdBtnCardPayment);
             clickOnCardType(rdBtnCardPayment);
         } else if ("paypal".equals(paymentType)) {
+            syscoLabUIOgm.waitTillElementLoaded(rdBtnCardPayment);
             clickOnCardType(rdBtnPaypalPayment);
         } else if ("afterPay".equals(paymentType)) {
+            syscoLabUIOgm.waitTillElementLoaded(rdBtnCardPayment);
             clickOnCardType(rdBtnAfterPayPayment);
         }
     }
 
     public boolean verifyCreditCardField(){
         syscoLabUIOgm.switchToFrame(iframeCreditCart);
+        syscoLabUIOgm.waitTillElementLoaded(txtCreditCard);
         return syscoLabUIOgm.isDisplayed(txtCreditCard);
     }
 
@@ -118,6 +127,7 @@ public class CheckoutPage {
     }
 
     public boolean isCartPaymentFieldsAvailable() {
+        syscoLabUIOgm.waitTillElementLoaded(formCardPaymentActive);
         boolean isCreditCardFieldExist = verifyCreditCardField();
         syscoLabUIOgm.switchToDefaultFrame();
         boolean isMonthFieldExist = verifyMonthField();
@@ -158,5 +168,12 @@ public class CheckoutPage {
         return isCreditCardFieldHasErrorMessage() &&
                 isExpiryDateAndMonthHasErrorMessage(creditCardNumber) &&
                 isCvvHasErrorMessage(month, year);
+    }
+
+    public boolean hasValidationWhenContinueWithoutMandatoryFields() {
+        syscoLabUIOgm.waitTillElementLoaded(btnContinue, 20L);
+        syscoLabUIOgm.isClickable(btnContinue);
+        syscoLabUIOgm.click(btnContinue);
+        return syscoLabUIOgm.isDisplayed(lblcardValidationError);
     }
 }

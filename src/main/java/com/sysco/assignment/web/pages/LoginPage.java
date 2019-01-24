@@ -40,7 +40,7 @@ public class LoginPage {
     }
 
     public static String verifyLoginFunctionError() {
-        //syscoLabUIOgm.waitTillElementDisappear(LblInCorrectSignIn);
+        syscoLabUIOgm.waitTillElementLoaded(LblInCorrectSignIn);
         return syscoLabUIOgm.getText(LblInCorrectSignIn);
     }
 }

@@ -6,14 +6,32 @@ import com.sysco.assignment.web.data.CheckoutData;
 import com.sysco.assignment.web.data.LoginData;
 import com.sysco.assignment.web.functions.Checkout;
 import com.sysco.assignment.web.functions.Home;
+import com.sysco.assignment.web.functions.Login;
 import com.sysco.assignment.web.functions.MyAccount;
 import com.sysco.assignment.web.utils.ExcelUtil;
 import org.testng.Assert;
+import org.testng.ITestContext;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class CheckoutTest {
-    @Test(description = "Remove items if existing items available in mini cart", dependsOnMethods = "com.sysco.assignment.web.tests.LoginTest.testSuccessfulLogin")
+    @BeforeClass
+    public void init(ITestContext iTestContext) {
+        iTestContext.setAttribute("feature", "Checkout - ValidCheckout");
+    }
+
+    @Test(description = "Test Login functionality", alwaysRun = true)
+    public void successfulLogin() throws Exception {
+        SoftAssert softAssert = new SoftAssert();
+        LoginData loginData = ExcelUtil.getLoginData("$login1");
+        Home.loadHomePage();
+        Home.clickLoginLink();
+        Login.enterEmailAndPassword(loginData.email, loginData.password);
+        Login.clickLoginButton();
+    }
+
+    @Test(description = "Remove items if existing items available in mini cart", dependsOnMethods = "successfulLogin")
     public void removeExistingItems() {
         SoftAssert softAssert = new SoftAssert();
         MyAccount.openMinicart();
@@ -50,7 +68,7 @@ public class CheckoutTest {
         Checkout.enterRequiredFieldsAndContinue(checkoutData.streetAddress, checkoutData.postCode, checkoutData.phoneNumber);
         Checkout.clickContinue();
         Checkout.selectPaymentType(checkoutData.paymentType);
-        Assert.assertTrue(Checkout.verifyCartPaymentFieldsAvailable(), "");
+        Assert.assertTrue(Checkout.verifyCartPaymentFieldsAvailable(), Attributes.PAYMENT_FIELDS_NOT_APPEAR);
         Assert.assertTrue(Checkout.verifyCardPaymentRequiredFieldValidation(CheckoutData.Cardnumber, CheckoutData.month, checkoutData.year), "");
         Checkout.quiteDriver();
     }

@@ -10,7 +10,7 @@ public class Checkout {
     }
 
     public static boolean verifyContinueWithoutMandatoryField() {
-        return checkoutPage.isContunueFunctionHighlightMandatoryFieldErrors();
+        return checkoutPage.hasValidationWhenContinueWithoutMandatoryFields();
     }
 
     public static void enterRequiredFieldsAndContinue(String streetAdress1, String postCode, String phoneNumber) {

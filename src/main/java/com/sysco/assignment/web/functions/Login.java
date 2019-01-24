@@ -20,10 +20,6 @@ public class Login  {
         loginPage.clickLoginButton();
     }
 
-    public static boolean verifyEmailBoxErrorMessage() {
-        return false;
-    }
-
     public static String verifyLoginFunctionError() {
         return LoginPage.verifyLoginFunctionError();
     }

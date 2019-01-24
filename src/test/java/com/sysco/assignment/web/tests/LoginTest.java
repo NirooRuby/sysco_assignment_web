@@ -19,7 +19,7 @@ public class LoginTest extends TestBase {
 
     @BeforeClass
     public void init(ITestContext iTestContext) {
-        iTestContext.setAttribute("feature", "Login - ValidLogin");
+        iTestContext.setAttribute("feature", "Login - InvalidLogin");
     }
 
     @Test(description = "Test Login functionality", alwaysRun = true)
@@ -27,8 +27,6 @@ public class LoginTest extends TestBase {
         SoftAssert softAssert = new SoftAssert();
         // Sample way to retrive data from excel
         LoginData loginData = ExcelUtil.getLoginData("$login1");
-
-        //UI Automation  sample
         Home.loadHomePage();
         Assert.assertTrue(Home.verifyLoginLink(), Attributes.LOGIN_LINK_MISSING_ERROR);
         Home.clickLoginLink();
@@ -41,7 +39,7 @@ public class LoginTest extends TestBase {
 
     @Test(description = "Verify invalid login with in correct username and password", alwaysRun = true)
     public void testLoginInValidEmailAndPassword() throws Exception {
-        LoginData loginData = ExcelUtil.getLoginData("$Invalid_login2");
+        LoginData loginData = ExcelUtil.getLoginData("$Invalid_login1");
 
         //UI Automation  sample
         Home.loadHomePage();

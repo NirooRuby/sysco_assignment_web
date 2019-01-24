@@ -41,6 +41,7 @@ public class MyAccountPage {
     }
 
     public static String verifyUserName() {
+        syscoLabUIOgm.waitTillElementLoaded(lblUserName);
         return syscoLabUIOgm.getText(lblUserName);
     }
 
