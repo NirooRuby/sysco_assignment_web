@@ -8,6 +8,7 @@ import com.sysco.assignment.web.functions.Checkout;
 import com.sysco.assignment.web.functions.Home;
 import com.sysco.assignment.web.functions.Login;
 import com.sysco.assignment.web.functions.MyAccount;
+import com.sysco.assignment.web.utils.CommonTest;
 import com.sysco.assignment.web.utils.ExcelUtil;
 import com.sysco.assignment.web.utils.TestBase;
 import org.testng.Assert;
@@ -24,12 +25,8 @@ public class CheckoutTest extends TestBase {
 
     @Test(description = "Test Login functionality", alwaysRun = true)
     public void successfulLogin() throws Exception {
-        SoftAssert softAssert = new SoftAssert();
         LoginData loginData = ExcelUtil.getLoginData("$login1");
-        Home.loadHomePage();
-        Home.clickLoginLink();
-        Login.enterEmailAndPassword(loginData.email, loginData.password);
-        Login.clickLoginButton();
+        CommonTest.login(loginData.email, loginData.password);
     }
 
     @Test(description = "Remove items if existing items available in mini cart", dependsOnMethods = "successfulLogin")
@@ -60,7 +57,6 @@ public class CheckoutTest extends TestBase {
 
     @Test(description = "Do checkout and validate payment fields.", dependsOnMethods = "addToCartAndVerifyItemAdded")
     public void CheckoutAndValidatePaymentPage() {
-        SoftAssert softAssert = new SoftAssert();
         LoginData loginData = ExcelUtil.getLoginData("$login1");
         CheckoutData checkoutData = ExcelUtil.getCheckoutData("$data1");
         MyAccount.ClickProceedToCheckout();

@@ -22,10 +22,10 @@ public class LoginTest extends TestBase {
         iTestContext.setAttribute("feature", "Online Shopping - ValidAndInvalidLogin");
     }
 
-    @Test(description = "Test Login functionality", alwaysRun = true)
+    @Test(description = "Test Login functionality and verify username appear in dashboard.", alwaysRun = true)
     public void testSuccessfulLogin() throws Exception {
         SoftAssert softAssert = new SoftAssert();
-        // Sample way to retrive data from excel
+        //Getting login data from excel
         LoginData loginData = ExcelUtil.getLoginData("$login1");
         Home.loadHomePage();
         Assert.assertTrue(Home.verifyLoginLink(), Attributes.LOGIN_LINK_MISSING_ERROR);
@@ -40,14 +40,10 @@ public class LoginTest extends TestBase {
     @Test(description = "Verify invalid login with in correct username and password", alwaysRun = true)
     public void testLoginInValidEmailAndPassword() throws Exception {
         LoginData loginData = ExcelUtil.getLoginData("$Invalid_login1");
-
-        //UI Automation  sample
         Home.loadHomePage();
         Assert.assertTrue(Home.verifyLoginLink(), Attributes.LOGIN_LINK_MISSING_ERROR);
         Home.clickLoginLink();
         Assert.assertTrue(Login.isLoginElementsExist(),Attributes.LOGIN_ELEMENTS_MISSING_ERROR);
-
-        ///adding validation asserts
         Login.enterEmailAndPassword(loginData.email, loginData.password);
         Login.clickLoginButton();
         Assert.assertEquals(Login.verifyLoginFunctionError(), Attributes.SIGNIN_INCORRECT);

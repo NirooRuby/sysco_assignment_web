@@ -11,5 +11,5 @@ public class Attributes {
     public static final String ITEM_NOT_REMOVED_FROM_MINICART = "Items are not removed from mini cart.";
     public static final String CHECKOUT_ELEMENTS_MISSING_ERROR = "Failed to validate error message for each mandatory field";
     public static final String NAME_OR_PRICE_NOT_MATCHING = "Item name or price is/are not matching";
-    public static final String PAYMENT_FIELDS_NOT_APPEAR = "Payment fields are not available after select paymet type.";
+    public static final String PAYMENT_FIELDS_NOT_APPEAR = "Payment fields are not available after select payment type.";
 }
